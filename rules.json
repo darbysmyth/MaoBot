@@ -1,0 +1,21 @@
+{
+  "baseRules": {
+    "cards": {
+      "A": {"game":  "skip"},
+      "8": {"game":  "reverse"},
+      "7": {"player": "pickup"},
+      "J": {"game":  "switch"},
+      "JOK": {"player": "JOK",
+              "game":  "JOK"},
+      "HOWTO":{"player": "HOWTO",
+               "game": "JOK"}
+    },
+    "suits": {
+      "S": {}
+    }
+  },
+  "newRules": {
+    "cards": {},
+    "suits": {}
+  }
+}
