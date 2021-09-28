@@ -12,7 +12,7 @@ GUILD = os.getenv("DISCORD_GUILD")
 bot = commands.Bot(command_prefix="!", help_command=None)
 
 GAME_IN_PLAY = False
-# This is cool you can run function from other classes, will be very useful if this is made to a full project
+
 
 GM = GameManager()
 
