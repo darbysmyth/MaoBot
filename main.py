@@ -19,9 +19,6 @@ GM = GameManager()
 @bot.command()
 async def help(ctx, *args):
     args = [arg.lower() for arg in args]
-    # context refers to the channel the message will be sent in i think
-    if len(args) == 0:
-        await ctx.send("```pls stop ur hurting me```")
     if "mao" in args:
         await ctx.send("`It's against the rules to tell you the rules`")
     if "game" in args:
